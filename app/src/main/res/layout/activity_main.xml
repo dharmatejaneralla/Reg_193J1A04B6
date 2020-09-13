@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/student_registration_form"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textSize="30sp"/>
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/enter_name"
+    android:id="@+id/et_name"
+    android:layout_marginTop="20dp"
+    android:inputType="textPersonName"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/roll_number"
+        android:id="@+id/et_roll"
+        android:layout_marginTop="20dp"
+        android:inputType="text"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mail-id"
+        android:id="@+id/et_mail"
+        android:layout_marginTop="20dp"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/phone_number"
+        android:id="@+id/et_phone"
+        android:layout_marginTop="20dp"
+        android:inputType="phone"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:id="@+id/et_password"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/male"
+        android:id="@+id/male"
+        android:layout_marginTop="16sp"/>
+
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/female"
+        android:layout_marginTop="16sp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/female"
+        android:layout_marginStart="20dp" />
+    </RadioGroup>
+
+    <Spinner
+        android:id="@+id/branch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:entries="@array/branch"/>
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:background="@color/colorPrimary"
+    android:text="@string/submit"
+    android:id="@+id/submitbtn"/>
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Reg_193J1A04B6</string>
+    <string name="student_registration_form">Student Registration Form</string>
+    <string name="enter_name">Enter name</string>
+    <string name="roll_number">Roll Number</string>
+    <string name="phone_number">Phone number</string>
+    <string name="password">Password</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="submit">Submit</string>
+    <string name="student_details">Student Details</string>
+    <string-array name="branch">
+        <item>CSE</item>
+        <item>ECE</item>
+        <item>EEE</item>
+        <item>MECH</item>
+        <item>IT</item>
+    </string-array>
+</resources>
